@@ -1,69 +1,97 @@
-# Getting Started with Create React App
+# 💼 Vyaas Subramanian – Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal developer portfolio, built with **React.js** and deployed via **Netlify**. This site showcases my skills, projects, and contact information in a clean, responsive, and professional layout.
 
-## Available Scripts
+## 🚀 Live Site
 
-In the project directory, you can run:
+🌐 [vyaasportfolio.netlify.app](https://vyaasportfolio.netlify.app)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+vysubs-portfolio/
+├── public/
+│ └── resume.pdf # Downloadable resume
+├── src/
+│ ├── components/ # Reusable components (Navbar, Footer, etc.)
+│ ├── pages/ # Page components (Home, About, Projects, Contact)
+│ ├── styles/ # Custom CSS files
+│ └── App.js # Main routing file
+├── package.json
+└── README.md
 
-### `npm test`
+markdown
+Copy
+Edit
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js** (SPA with `react-router-dom`)
+- **JavaScript**
+- **CSS3**
+- **React Icons**
+- **Netlify** (Deployment)
+- **GitHub Pages** (Optional Alt Deployment)
+- **gh-pages** (for GitHub deployment support)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📄 Features
 
-### `npm run eject`
+- ✨ **Animated Hero Section**
+- 📚 **About Me with Dynamic Icons**
+- 💼 **Project Cards with Hover Effects**
+- 📬 **Contact Page with External Links**
+- 📎 **Downloadable Resume**
+- 📱 **Mobile-Responsive Design**
+- 🎨 **Modern UI with Gradient Text and Effects**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔗 Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 📧 **Email:** [vsubs28@gmail.com](mailto:vsubs28@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/vyaassubramanian](https://www.linkedin.com/in/vyaassubramanian)
+- 🐙 **GitHub:** [github.com/Vysubs28](https://github.com/Vysubs28)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧭 Getting Started (Development)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Clone the repo**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/Vysubs28/vysubs-portfolio.git
+   cd vysubs-portfolio
+Install dependencies
 
-### Code Splitting
+bash
+Copy
+Edit
+npm install
+Run the app locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copy
+Edit
+npm start
+Build for production
 
-### Analyzing the Bundle Size
+bash
+Copy
+Edit
+npm run build
+📦 Deployment Notes
+Deployed via Netlify at https://vyaasportfolio.netlify.app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For GitHub Pages deployment:
 
-### Making a Progressive Web App
+Ensure "homepage" is set in package.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Run: npm run deploy
 
 ### `npm run build` fails to minify
 
