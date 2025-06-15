@@ -1,0 +1,83 @@
+/* Container grid */
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Project card without glow */
+.repo-card {
+  background: #1e1e2f;
+  color: #eee;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent; /* default border transparent */
+}
+
+.repo-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+  border-color: #0af; /* bright border color on hover */
+}
+
+
+/* Icon style */
+.repo-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  margin-top: 4px;
+  color: #0af;
+}
+
+/* Project title */
+.repo-card h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+  color: #0af;
+}
+
+/* Description */
+.repo-card p {
+  margin: 0;
+  font-size: 1rem;
+  color: #bbb;
+  line-height: 1.4;
+}
+
+
+.projects-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+
+  /* Gradient text */
+  background: linear-gradient(90deg, #0af, #05a, #0af);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  /* Slow animate gradient */
+  animation: shine 20s ease-in-out infinite;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+@keyframes shine {
+  0%, 100% {
+    background-position: 200% center;
+  }
+  50% {
+    background-position: 0% center;
+  }
+}
+
+

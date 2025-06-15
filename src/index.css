@@ -1,0 +1,59 @@
+/* === Global Body Reset === */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+               'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* === Code Font Styling === */
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #161b22;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #8b949e;
+}
+
+/* === Box Sizing for Layout Consistency === */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;   /* center nav items horizontally */
+  gap: 40px;                 /* space between nav links */
+  padding: 1rem 0;
+  background-color: #161b22; /* dark background consistent with theme */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: #c9d1d9;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+  color: #58a6ff;                /* bright blue on hover */
+  border-bottom: 2px solid #58a6ff;
+  transform: scale(1.1);         /* subtle enlarge */
+}
+
+nav a.active {
+  color: #58a6ff;
+  border-bottom: 2px solid #58a6ff;
+}

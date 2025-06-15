@@ -1,0 +1,56 @@
+.contact-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #111822;
+  border-radius: 12px;
+  color: #eee;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.8rem;
+  color: #0af;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.contact-link {
+  color: #0af;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #08c;
+  border-color: #08c;
+  outline: none;
+}
+
+.contact-icon {
+  font-size: 1.8rem;
+  vertical-align: middle;
+  color: inherit; /* Use the link text color */
+  filter: none;   /* Remove any filter/glow */
+  text-shadow: none; /* Remove any shadow */
+}
+
+
